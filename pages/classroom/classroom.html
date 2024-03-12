@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>S & LIMA</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Coach is an exquisite bootstrap 5 theme intended for creating an online coaching and courses website.">
+  <meta name="keywords" content="codescandy, bootstrap 5, bootstrap, responsive bootstrap 5, html css template, frontend, html template, business, coach, coaching, coaching theme, consulting, corporate, geeks-ui, learnpress, Life Coach, personal coach, life coaching, mentor, training, coach responsive template">
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="../assets/libs/ion-rangeslider/css/ion.rangeSlider.min.css">
+  <link rel="stylesheet" href="../assets/libs/litepicker/dist/css/litepicker.css">
+  <link rel="stylesheet" href="../../assets/libs/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../assets/libs/magnific-popup/dist/magnific-popup.css">
+
+
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header fixed-top border-4 border-top border-primary">
+    <!-- navigation start -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-default">
+        <a class="navbar-brand" href="../../index.html"><img src="../../../dist/assets/images/Logo-Fundo-Cinza.jpeg" width="120" alt="" /></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-default">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav ms-auto me-lg-3 ">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="menu-5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-desktop"></i>
+                Sala de Aula Virtual
+              </a>
+              <ul class="dropdown-menu dropdown-menu-arrow  dropdown-menu-xl-start " aria-labelledby="menu-5">
+                <li class="dropdown-submenu ">
+                  <a class="dropdown-item" href="../classroom/classroom.html">
+                    <i class="fa fa-chalkboard"></i>
+                    Curso - Segurança da Informação
+                  </a>
+                </li>
+            </li>
+          </ul>
+          <li class="nav-item dropdown ">
+            <a class="nav-link" href="../signin.html" id="menu-2" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-sign-out-alt"></i>
+              Desconectar
+            </a>
+          </li>
+        </div>
+      </nav>
+    </div>
+    <!-- navigation close -->
+  </div>
+  <!-- event description -->
+  <div class="py-lg-16 py-12 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-12">
+          <div class="mb-8">
+            <h3 class="mb-4">Curso - Segurança da Informação</h3>
+            <video id="videoPlayer" class='v-content' poster="">
+              <source src="" type="video/mp4">
+              Desculpe, mas o seu navegador não suporta o formato de vídeo.
+            </video>
+            <div id="controlesVideo">
+              <div>
+                <input type="range" id="progressBar" min="0" value="0">
+              </div>
+              <i class="fas fa-play icon-shape rounded-circle btn-play icon-md" id="btn-play"></i>
+              <i class="fas fa-pause icon-shape rounded-circle btn-play icon-md" id="btn-pause"></i>
+              <i class="fas fa-stop icon-shape rounded-circle btn-play icon-md" id="btn-stop"></i>
+              <i class="fas fa-forward icon-shape rounded-circle btn-play icon-md" id="btn-forward"></i>
+              <i class="fas fa-backward icon-shape rounded-circle btn-play icon-md" id="btn-backward"></i>
+              <i class="fas fa-expand icon-shape rounded-circle btn-play icon-md" id="btn-fullscreen"></i>
+            </div>
+          </div>
+        </div>
+        <!-- event sidebar -->
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="mb-4">
+            <h3 class="mb-4">Informações Adicionais</h3>
+          </div>
+          <!-- Nota Professor -->
+          <div class="card mb-2">
+            <div class="card-body p-4">
+              <div class="mb-4">
+                <i class="fas fa-user-tie icon-shape icon-lg bg-light-secondary rounded-circle text-secondary"></i>
+              </div>
+              <h4 class="h5">Professor, Sullivan Lima</h4>
+              <p class="mb-0">Administrador, Desenvolvedor de Sistemas e Certificado Green Belt Lean Six Sigma. Pós graduado em Gestão Empresarial e de Projetos.</p>
+            </div>
+          </div>
+          <!-- Nota Importante -->
+          <div class="card mb-2">
+            <div class="card-body p-4">
+              <h4 class="h5">Importante!</h4>
+              <p class="mb-0">Neste curso você estará apto a responder questões das mais variadas bancas de concursos, com ênfase na FGV, Cebraspe e Quadrix.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- event video -->
+        <div class="mb-8">
+          <h3 class="mb-4">Programação das Disciplinas</h3>
+          <ul class="nav-pills-border nav nav-pills nav-justified mb-5 " id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" id="pills-eventOne-tab" data-bs-toggle="pill" href="#pills-eventOne" role="tab" aria-controls="pills-eventOne" aria-selected="true">1º Módulo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" id="pills-eventTwo-tab" data-bs-toggle="pill" href="#pills-eventTwo" role="tab" aria-controls="pills-eventTwo" aria-selected="false">2º Módulo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" id="pills-eventThree-tab" data-bs-toggle="pill" href="#pills-eventThree" role="tab" aria-controls="pills-eventThree" aria-selected="false">3º Módulo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" id="pills-eventFour-tab" data-bs-toggle="pill" href="#pills-eventFour" role="tab" aria-controls="pills-eventFour" aria-selected="false">4º Módulo</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-eventOne" role="tabpanel" aria-labelledby="pills-eventOne-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="h5 mb-0">Conceitos Iniciais</h4>
+                </div>
+                <div class="card-body p-4 ">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Interpretacao.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Interpretacao.mp4')"></video>
+                        <div>
+                          <h5 class="mb-1">1. Conceitos Introdutórios</h5>
+                          <p class="mb-0">
+                            Nesta aula você será contextualizado com o mundo da segurança da informação.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <!-- <div class="col-md-3">
+                                <span class="text-dark fw-bold">Tempo: 45 min.</span>
+                              </div> -->
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4')"></video>
+                        <div>
+                          <h5>2. Princípios da Segurança da Informação</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos sobre os princípios que envolvem segurança da informação.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>3. Vulnerabilidades de Segurança da Informação</h5>
+                          <p class="mb-0">
+                            Nesta aula entedenderemos sobre o conceito de vulnerabilidades.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Roberta Campos e Nando Reis - De Janeiro a Janeiro (Ao Vivo).mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Roberta Campos e Nando Reis - De Janeiro a Janeiro (Ao Vivo).mp4')"></video>
+                        <div>
+                          <h5 class="mb-1">4. Ameaças de Segurança da Informação</h5>
+                          <p class="mb-0">
+                            Nesta aula falaremos sobre ameaças de segurança da informação.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-eventTwo" role="tabpanel" aria-labelledby="pills-eventTwo-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="h5 mb-0">Vulnerabilidades e Ameaças</h4>
+                </div>
+                <div class="card-body p-4 ">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Interpretacao.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Interpretacao.mp4')"></video>
+                        <div>
+                          <h5 class="mb-1">6. Noções sobre Vírus</h5>
+                          <p class="mb-0">
+                            Nesta aula você aprenderá os conceitos sobre vírus e a identificá-los.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <!-- <div class="col-md-3">
+                                <span class="text-dark fw-bold">Tempo: 45 min.</span>
+                              </div> -->
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4')"></video>
+                        <div>
+                          <h5>7. Noções sobre Worms</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos sobre o uso de variáveis em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>8. Noções sobre Bots</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <!-- <div class="col-md-3">
+                                <span class="text-dark fw-bold">Tempo: 45 min.</span>
+                              </div> -->
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4')"></video>
+                        <div>
+                          <h5>9. Noções sobre Trojans (Cavalo de Tróia)</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos sobre o uso de variáveis em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>10. Noções sobre Ransomwares</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>11. Noções sobre Spyware</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>12. Noções sobre Keylogger</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>13. Noções sobre Screenlogger</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>14. Noções sobre Backdoors</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>15. Noções sobre Rootkits</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-eventThree" role="tabpanel" aria-labelledby="pills-eventThree-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="h5 mb-0">Principais Golpes contra Segurança da Informação</h4>
+                </div>
+                <div class="card-body p-4 ">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Interpretacao.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Interpretacao.mp4')"></video>
+                        <div>
+                          <h5 class="mb-1">16. Engenharia Social</h5>
+                          <p class="mb-0">
+                            Nesta aula você aprenderá o básico da linguagem javascript e seu conceito histórico.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <!-- <div class="col-md-3">
+                                <span class="text-dark fw-bold">Tempo: 45 min.</span>
+                              </div> -->
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4')"></video>
+                        <div>
+                          <h5>17. Phishing</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos sobre o uso de variáveis em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>18. Pharming</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4 bg-light">
+                  <div class="row">
+                    <!-- <div class="col-md-3">
+                                <span class="text-dark fw-bold">Tempo: 45 min.</span>
+                              </div> -->
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/Nando Reis e Jão - Sim (letra  _  legendado).mp4')"></video>
+                        <div>
+                          <h5>19. Exploits</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos sobre o uso de variáveis em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>20. SQL Injection</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-eventFour" role="tabpanel" aria-labelledby="pills-eventFour-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="h5 mb-0">Bônus - Dicas Extras</h4>
+                </div>
+                <div class="card-body border-top p-4">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="d-flex align-items-center">
+                        <video src="../../assets/videos/É Você - Tribalistas Ao Vivo.mp4" style="width: 150px; padding: 10px;" onclick="changeVideo('../../assets/videos/É Você - Tribalistas Ao Vivo.mp4')"></video>
+                        <div>
+                          <h5>21. Definir</h5>
+                          <p class="mb-0">
+                            Nesta aula conheceremos o básico sobre estruturas de controle em javascript
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- faq -->
+      <div class="mb-4">
+        <h3 class="mb-4">Perguntas Frequentes</h3>
+        <div class="mb-5">
+          <h4 class="h5">Os cursos geram certificados?</h4>
+          <p>
+            Sim. Todas os nossos cursos, palestras e/ou workshops concedem ao ouvinte
+            certificado de participação com o quantitativo das horas, tema da palestra
+            e assinatura do CEO da nossa instituição.
+          </p>
+        </div>
+        <div class="mb-5">
+          <h4 class="h5">Questões relacionadas a perguntas frequentes</h4>
+          <p>
+            Não. Nós apenas cobramos valores referentes a inscrição e participação do evento
+            com valores acessíveis a todos os interessados.
+            Lembrando que aceitamos todas as formas de pagamento.
+          </p>
+        </div>
+        <div class="mb-5">
+          <h4 class="h5">Os conteúdos em vídeo ficam gravados por tempo indeterminado?</h4>
+          <p>
+            Sim. Todos os nossos vídeos ficam disponibilizados por prazo indeterminado, para sempre que desejar poder assistir novamente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <!-- Optional JavaScript -->
+  <script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var controlesVideo = document.getElementById("controlesVideo");
+    var progressBar = document.getElementById("progressBar");
+    var btnFullscreen = document.getElementById("btn-fullscreen");
+    var btnPause = document.getElementById("btn-pause");
+    var btnStop = document.getElementById("btn-stop");
+    var btnForward = document.getElementById("btn-forward");
+    var btnBackward = document.getElementById("btn-backward");
+
+
+    const btnPlay = document.getElementById('btn-play');
+    btnPlay.addEventListener("click", function () { console.log('h') });
+
+
+    btnPlay.addEventListener("click", function () {
+      videoPlayer.play();
+    });
+
+    btnStop.addEventListener("click", function () {
+      videoPlayer.pause();
+      videoPlayer.currentTime = 0;
+    });
+
+    btnPause.addEventListener("click", function () {
+      videoPlayer.pause();
+    });
+
+    btnForward.addEventListener("click", function () {
+      videoPlayer.currentTime += 10;
+    });
+
+    btnBackward.addEventListener("click", function () {
+      videoPlayer.currentTime -= 10;
+    });
+
+    videoPlayer.addEventListener("timeupdate", function () {
+      var progress = (videoPlayer.currentTime / videoPlayer.duration) * 100;
+      progressBar.value = progress;
+    });
+
+    progressBar.addEventListener("input", function () {
+      var time = (progressBar.value / 100) * videoPlayer.duration;
+      videoPlayer.currentTime = time;
+    });
+
+    btnFullscreen.addEventListener("click", function () {
+      if (videoPlayer.requestFullscreen) {
+        videoPlayer.requestFullscreen();
+      } else if (videoPlayer.mozRequestFullScreen) {
+        videoPlayer.mozRequestFullScreen();
+      } else if (videoPlayer.webkitRequestFullscreen) {
+        videoPlayer.webkitRequestFullscreen();
+      } else if (videoPlayer.msRequestFullscreen) {
+        videoPlayer.msRequestFullscreen();
+      }
+    });
+
+    volumeBar.addEventListener("input", function () {
+      videoPlayer.volume = volumeBar.value;
+    });
+
+    function changeVideo(videoSrc) {
+      videoPlayer.getElementsByTagName("source")[0].src = videoSrc;
+      videoPlayer.load()
+      videoPlayer.play();
+    }
+
+  </script>
+
+  <!-- Libs JS -->
+  <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="../../assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+  <script src="../../assets/libs/prismjs/prism.js"></script>
+  <script src="../../assets/libs/leaflet/dist/leaflet.js"></script>
+  <script src="../../assets/libs/litepicker/dist/litepicker.js"></script>
+  <script src="../../assets/libs/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+  <script src="../../assets/libs/inputmask/dist/jquery.inputmask.min.js"></script>
+
+  <!-- clipboard -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+  <!-- Theme JS -->
+  <script src="../../assets/js/main.js"></script>
+</body>
+
+</html>
